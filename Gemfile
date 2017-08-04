@@ -26,16 +26,12 @@ source 'https://rails-assets.org' do
 end
 
 gem 'carrierwave', '~> 1.0'
-
 gem "mini_magick"
-
 gem 'jquery-rails'
-
 gem 'turbolinks', '~> 5'
-
 gem 'jbuilder', '~> 2.5'
-
 gem 'trix'
+gem 'will_paginate', '~> 3.1.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
